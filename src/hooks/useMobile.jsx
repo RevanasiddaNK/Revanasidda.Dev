@@ -1,7 +1,9 @@
 import React from 'react'
 
-export const useMobile = () => {
+const useMobile = () => {
   return (
     <div>useMobile</div>
   )
 }
+
+export default useMobile;
