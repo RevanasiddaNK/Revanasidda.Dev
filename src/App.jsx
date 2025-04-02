@@ -1,5 +1,3 @@
-"use client"
-
 import { useState, useEffect, useLayoutEffect, useCallback } from "react";
 import { FaMoon, FaSun, FaArrowUp } from "react-icons/fa";
 import Header from "./components/Header";
