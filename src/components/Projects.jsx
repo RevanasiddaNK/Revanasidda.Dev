@@ -1,6 +1,9 @@
 import { useState, useMemo } from "react";
 import { motion } from "framer-motion";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import project01 from "../assets/project01.jpeg";
+import project02 from "../assets/project02.jpg";
+import project03 from "../assets/project03.jpeg";
 
 const projectsData = [
   {
@@ -9,7 +12,7 @@ const projectsData = [
     category: "web",
     description:
       "A real-time collaborative music player allowing users to vote on songs and sync playback using YouTube videos.",
-    image: "../assets/project01.jpeg",
+    image: project01,
     tags: ["Next.js", "TypeScript", "ShadCN UI", "Prisma", "MySQL", "Tailwind CSS"],
     githubLink: "https://github.com/RevanasiddaNK/VoteTune",
     demoLink: "https://votetunez.vercel.app/",
@@ -20,7 +23,7 @@ const projectsData = [
     category: "web",
     description:
       "A web app designed for users to track and manage stock investments in real-time.",
-    image: "../assets/project02.jpg",
+    image: project02,
     tags: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "JWT"],
     githubLink: "https://github.com/RevanasiddaNK/EquityTrack",
     demoLink: "https://equitytrack.onrender.com",
@@ -31,7 +34,7 @@ const projectsData = [
     category: "web",
     description:
       "A social media platform with JWT authentication, post creation, commenting, and profile management.",
-    image: "../assets/project03.jpeg",
+    image: project03,
     tags: ["MongoDB", "Node.js", "Express.js", "React.js", "Tailwind CSS"],
     githubLink: "https://github.com/RevanasiddaNK/TweetUp",
     demoLink: "https://tweetup.onrender.com/",
